@@ -1,0 +1,78 @@
+/* Variables */
+:root {
+  --light: #fff;
+  --primary-color: #28ABE3;
+  --black: #000;
+  --primary-font: 'Source Sans Pro', sans-serif;
+  --icon-font: 'themefisher-font';
+  --secondary-font: 'Catamaran', sans-serif;
+}
+
+/* About us section */
+.about {
+  padding: 100px 0;
+  background: var(--light);
+}
+
+.about .btn-about {
+  background: var(--primary-color);
+}
+
+.about h4 {
+  margin-top: 30px;
+}
+
+.about .feature-list {
+  margin-top: 10px;
+}
+
+.about .feature-list li {
+  width: 48%;
+  display: inline-block;
+  color: #666;
+  font-size: 13px;
+  font-family: var(--secondary-font);
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.about .feature-list li i {
+  color: var(--primary-color);
+  margin-right: 8px;
+}
+
+@media (max-width:768px) {
+  .about .feature-list li {
+    width: auto;
+    margin-right: 20px;
+  }
+}
+
+/* About us 2 section */
+.about-2 {
+  background: #F7F7F7;
+}
+
+.about-2 .checklist {
+  padding-left: 30px;
+}
+
+.about-2 .checklist li {
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #777;
+  font-family: var(--primary-font);
+}
+
+.about-2 .checklist li:before {
+  position: absolute;
+  margin-right: 12px;
+  margin-left: -45px;
+  content: "\f375";
+  font-family: var(--icon-font);
+  opacity: 1;
+  border-radius: 50%;
+  padding: 2px 8px;
+  font-size: 20px;
+}

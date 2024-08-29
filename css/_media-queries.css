@@ -1,0 +1,46 @@
+/*=== MEDIA QUERY ===*/
+
+/* Mobile XS */
+@media (max-width: 400px) {
+  body {
+    background-color: #fff; /* $light */
+    color: #28ABE3; /* $primary-color */
+    font-family: 'Source Sans Pro', sans-serif; /* $primary-font */
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    background-color: #fff; /* $light */
+    color: #28ABE3; /* $primary-color */
+    font-family: 'Source Sans Pro', sans-serif; /* $primary-font */
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  body {
+    background-color: #fff; /* $light */
+    color: #28ABE3; /* $primary-color */
+    font-family: 'Source Sans Pro', sans-serif; /* $primary-font */
+  }
+}
+
+/* Desktop */
+@media (max-width: 992px) {
+  body {
+    background-color: #fff; /* $light */
+    color: #28ABE3; /* $primary-color */
+    font-family: 'Source Sans Pro', sans-serif; /* $primary-font */
+  }
+}
+
+/* Large Desktop */
+@media (max-width: 1200px) {
+  body {
+    background-color: #fff; /* $light */
+    color: #28ABE3; /* $primary-color */
+    font-family: 'Source Sans Pro', sans-serif; /* $primary-font */
+  }
+}

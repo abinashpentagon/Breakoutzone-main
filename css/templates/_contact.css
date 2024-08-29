@@ -1,0 +1,96 @@
+/*=================================================================
+  Contact
+  ==================================================================*/
+  .contact-us {
+    padding: 100px 0 50px 0;
+}
+
+.contact-form {
+    margin-bottom: 40px;
+}
+
+.contact-form .form-control {
+    background-color: transparent;
+    border: 1px solid #dedede;
+    box-shadow: none;
+    height: 38px;
+    color: #0c0c0c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border-radius: 0;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover,
+.contact-form #contact-submit:hover {
+    border-color: #28ABE3; /* Replaced $primary-color */
+}
+
+.contact-form #contact-submit {
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    margin: 0;
+    background: #28ABE3; /* Replaced $primary-color */
+    color: #fff; /* Replaced $light */
+    border-radius: 0;
+}
+
+.contact-form textarea.form-control {
+    padding: 10px;
+    height: 120px !important;
+    outline: none;
+}
+
+.contact-details .contact-short-info {
+    margin-top: 15px;
+}
+
+.contact-details .contact-short-info li {
+    margin-bottom: 6px;
+}
+
+.social-icon {
+    margin-top: 20px;
+}
+
+.social-icon ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icon ul li a {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+    text-align: center;
+}
+
+.social-icon ul li a:hover {
+    background: #28ABE3; /* Replaced $primary-color */
+    color: #fff; /* Replaced $light */
+    border: 1px solid #28ABE3; /* Replaced $primary-color */
+}
+
+.social-icon ul li a:hover i {
+    color: #fff; /* Replaced $light */
+}
+
+.social-icon ul li a i {
+    color: #55606a;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.google-map {
+    position: relative;
+}
+
+.google-map .map_canvas {
+    height: 400px;
+    color: white;
+}

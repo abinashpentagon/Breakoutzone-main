@@ -1,0 +1,53 @@
+/*=================================================================
+ Call To Action 1
+==================================================================*/
+
+.call-to-action {
+  padding: 100px 0;
+  background: url('/images/call\ to\ action.jpeg');
+  background-size: cover;
+  color: var(--light);
+}
+
+.call-to-action h2 {
+  line-height: 1.5;
+}
+
+.call-to-action p {
+  color: var(--light);
+}
+
+.call-to-action .btn-main {
+  margin-top: 20px;
+  background-color: #28abe3;
+  color:aliceblue;
+  border: 0cap;
+}
+
+
+.call-to-action .btn-main:hover{
+  color:#28abe3;
+  background-color: aliceblue;
+}
+/*=================================================================
+ Call To Action 2
+==================================================================*/
+
+.call-to-action-2 {
+  padding: 100px 0;
+  background-image: url('../images/call-to-action/call-to-action-bg.jpg');
+  background-size: cover;
+  color: var(--light);
+}
+
+.call-to-action-2 h2 {
+  line-height: 1.5;
+}
+
+.call-to-action-2 p {
+  color: var(--light);
+}
+
+.call-to-action-2 .btn-main {
+  margin-top: 20px;
+}

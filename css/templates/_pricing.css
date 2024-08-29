@@ -1,0 +1,89 @@
+/*=================================================================
+  Pricing section
+==================================================================*/
+
+.pricing-table {
+  padding: 100px 0;
+  padding-bottom: 70px;
+  background: url('../images/pricing-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.pricing-table::before {
+  background: #f7f7f7;
+  position: absolute;
+  z-index: 999;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.pricing-table .container {
+  position: relative;
+  z-index: 999;
+}
+
+.pricing-table .title p {
+  color: #000000; /* $light */
+}
+
+.pricing-table .pricing-item {
+  padding: 40px 55px 65px;
+  background: #fff; /* $light */
+  margin-bottom: 30px;
+}
+
+.pricing-table .pricing-item a.btn-main {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.pricing-table .pricing-item li {
+  font-weight: 400;
+  padding: 10px 0;
+  color: #666;
+}
+
+.pricing-table .pricing-item li i {
+  margin-right: 6px;
+}
+
+.pricing-table .price-title {
+  padding: 30px 0 20px;
+}
+
+.pricing-table .price-title > h3 {
+  font-weight: 700;
+  margin: 0 0 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.pricing-table .price-title > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 5px;
+}
+
+.pricing-table .price-title .value {
+  color: #28ABE3; /* $primary-color */
+  font-size: 50px;
+  padding: 10px 0;
+}
+.pricing-btn{
+  height: 40px;
+}
+@media (min-width:992px) and (max-width:1199px) {
+  .buy-div{
+    width: 200px;
+  }
+}
+.buy-div{
+  display: flex;justify-content: space-between;align-self: center;margin-top: 20px;
+}

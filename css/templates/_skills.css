@@ -1,0 +1,91 @@
+/*=================================================================
+  Our skills
+==================================================================*/
+.team-skills .progress-block {
+  margin-top: 40px;
+}
+
+.team-skills .progress-block span {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.team-skills .progress-block .progress {
+  box-shadow: none;
+  border-radius: 0;
+  height: 10px;
+}
+
+.team-skills .progress-block .progress .progress-bar {
+  background: #28ABE3; /* Replaced $primary-color */
+  box-shadow: none;
+}
+
+.clients-logo-slider {
+  margin-top: 50px;
+}
+
+
+/*=================================================================
+Step section
+==================================================================*/
+.development-steps .step {
+  padding: 80px 20px;
+}
+
+.development-steps .step h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.development-steps .step h4 i {
+  font-size: 72px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.development-steps .step p {
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.development-steps .step-1 {
+  background-color: #f2f6f8;
+}
+
+.development-steps .step-1 h4 {
+  color: #212121;
+}
+
+.development-steps .step-1 p {
+  color: #838383;
+}
+
+.development-steps .step-2 {
+  background-color: #28ABE3; /* Replaced $primary-color */
+}
+
+.development-steps .step-2 h4,
+.development-steps .step-2 p {
+  color: #fff; /* Replaced $light */
+}
+
+.development-steps .step-3 {
+  background: #2299CA; /* Replaced darken($primary-color, 10%) */
+}
+
+.development-steps .step-3 h4,
+.development-steps .step-3 p {
+  color: #fff; /* Replaced $light */
+}
+
+.development-steps .step-4 {
+  background: #1E8CB2; /* Replaced darken($primary-color, 15%) */
+}
+
+.development-steps .step-4 h4,
+.development-steps .step-4 p {
+  color: #fff; /* Replaced $light */
+}
